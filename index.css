@@ -7,6 +7,13 @@
     list-style: none;
 }
 
+header{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    align-items: top;
+    margin-top: -134px;
+}
 /*Menu*/
 
 .navegacao{
@@ -173,18 +180,19 @@
     background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 200px 200px;
-    gap: 50px;
+    gap: 100px;
     margin-top: 5%;
     justify-content: center;
 }
 .layoutprojetos{
     background-color: black;
     color: #ffffff;
-    height: 250px;
+    height: 136px;
     width: 225px;
-    margin-bottom: 1rem;
+    margin-bottom: 7rem;
     margin-left: 10%;
     gap: 1050px;
+    border-radius: 10px;
 }
 
 .layoutprojetos h1{
@@ -200,4 +208,19 @@
     margin-right: 12px;
     margin-top: 12px;
     border-radius: 10px;
+}
+
+.conteudo_dosprojetos{
+margin-top: 10px;
+color: black;
+}
+
+/*Contatos*/
+
+.contato_info{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    gap: 1rem;
+    border-top: 100px;
 }
